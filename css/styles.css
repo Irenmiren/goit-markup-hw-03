@@ -1,0 +1,255 @@
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196f3;
+	--hero-color: #ffffff;
+	--logo-color: #000000;
+	--contact-footer-color: #ffffff;
+	--button-bg-color: #f5f4fa;
+	--hero-bg: #2f303a;
+	--portfolio-bg: #e5e5e5;
+	--button-hero-hover: #188ce8;
+}
+
+body {
+	background-color: #ffffff;
+	color: var(--primary-text-color);
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+/* logo */
+
+.logo {
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	word-spacing: -6px;
+	color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+	color: var(--accent-color);
+}
+
+.logo .studio {
+	color: var(--logo-color);
+}
+
+.logo .studio:hover,
+.logo .studio:focus {
+	color: var(--accent-color);
+}
+
+.logo .studio-footer {
+	color: var(--hero-color);
+}
+
+.logo .studio-footer:hover,
+.logo .studio-footer:focus {
+	color: var(--accent-color);
+}
+
+.site-nav .link {
+	color: var(--title-text-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent-color);
+}
+
+.site-nav .link.current {
+	color: var(--accent-color);
+}
+
+.contacts-nav .link {
+	color: var(--primary-text-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+	color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+	background-color: var(--hero-bg);
+}
+
+.hero-title {
+	color: var(--hero-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.hero .button.primary {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+
+	letter-spacing: 0.06em;
+}
+
+.hero .button.primary:hover,
+.hero .button.primary:hover {
+	background-color: var(--button-hero-hover);
+}
+
+/* секции */
+
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+.section-title {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+}
+
+.section-benefits {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.section-content {
+	color: var(--primary-text-color);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 1.71;
+}
+
+.portfolio {
+	background-color: var(--hero-color);
+}
+.section-gallery {
+	color: var(--title-text-color);
+
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+
+	letter-spacing: 0.06em;
+}
+
+.gallery-type {
+	color: var(--primary-text-color);
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+}
+
+.section-team {
+	color: var(--title-text-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.sestion.team {
+	background-color: var(--button-bg-color);
+}
+
+.section-function {
+	color: var(--primary-text-color);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/* buttons */
+
+.button {
+	color: var(--title-text-color);
+	background-color: var(--button-bg-color);
+	border: none;
+	font-family: inherit;
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+	color: var(--hero-color);
+	background-color: var(--accent-color);
+}
+
+.button.primary {
+	color: var(--hero-color);
+	background-color: var(--accent-color);
+}
+
+.button.secondary {
+	color: var(--title-text-color);
+	background-color: var(--button-bg-color);
+}
+.button.current {
+	background-color: var(--accent-color);
+	color: var(--contact-footer-color);
+}
+
+.footer {
+	background-color: var(--hero-bg);
+}
+
+.address {
+	color: var(--contact-footer-color);
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
