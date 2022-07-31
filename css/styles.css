@@ -159,6 +159,11 @@ img {
 	letter-spacing: 0.02em;
 }
 
+.contacts-nav.top .link {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
 	color: var(--accent-color);
@@ -183,6 +188,8 @@ img {
 .hero {
 	background-color: var(--hero-bg);
 	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .hero-title {
@@ -194,7 +201,6 @@ img {
 	text-transform: uppercase;
 
 	margin-bottom: 30px;
-	padding-top: 200px;
 }
 
 .hero .button.primary {
@@ -205,10 +211,8 @@ img {
 	letter-spacing: 0.06em;
 	border-radius: 4px;
 	padding: 10px 32px;
-	min-width: 216px;
 	border: 1px solid transparent;
 	display: inline-block;
-	margin-bottom: 200px;
 }
 
 .hero .button.primary:hover,
@@ -245,7 +249,15 @@ img {
 	margin-right: 30px;
 }
 
+.section.padding-null {
+	padding-bottom: 0;
+}
+
 /* секция чем мы занимаемся  */
+
+.background {
+	background-color: var(--button-bg-color);
+}
 
 .section-title {
 	color: var(--title-text-color);
@@ -261,7 +273,7 @@ img {
 
 .work {
 	display: flex;
-	justify-content: space-between;
+	gap: 30px;
 }
 
 /* секция наша команда */
@@ -273,8 +285,7 @@ img {
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
-
-	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .sestion.team {
@@ -288,7 +299,6 @@ img {
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
-	margin-top: 10px;
 }
 
 .card-team {
@@ -297,8 +307,6 @@ img {
 	background: #ffffff;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
-
-	padding-bottom: 30px;
 }
 
 .cards-team {
@@ -311,6 +319,10 @@ img {
 
 .cards-team .item:last-child {
 	margin-right: 0;
+}
+
+.card-team-title {
+	padding: 30px 0px;
 }
 
 /* секция портфолио */
@@ -356,10 +368,6 @@ img {
 	border-right: 1px solid #eeeeee;
 	border-bottom: 1px solid #eeeeee;
 	padding: 20px 24px;
-	/* padding-left: 24px;
-	padding-right: 24px;
-	padding-top: 20px;
-	padding-bottom: 20px; */
 }
 
 .card-project {
@@ -427,6 +435,9 @@ img {
 /* секция подвал */
 .footer {
 	background-color: var(--hero-bg);
+
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .address {
@@ -443,12 +454,7 @@ img {
 .logo-footer {
 	display: inline-block;
 	margin-bottom: 20px;
-	padding-top: 60px;
 }
 .contacts-nav.bottom .item:not(:last-child) {
 	margin-bottom: 9px;
-}
-
-.contacts-nav.bottom {
-	padding-bottom: 60px;
 }
